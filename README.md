@@ -5,9 +5,6 @@ DevOps Food Delivery Pipeline — Week 1
 A simplified microservices-based food delivery system for learning DevOps tooling and practices — built with Node.js, Flask, Docker, and Docker Compose.
 
 📁 Project Structure
-bash
-Copy
-Edit
 devops-food-delivery-pipeline/
 ├── user-service/        # Node.js Express service
 │   └── app.js
@@ -20,6 +17,7 @@ devops-food-delivery-pipeline/
 │   └── Dockerfile
 ├── docker-compose.yml   # Multi-container orchestration
 └── README.md
+
 🚀 Services Overview
 Service	Tech Stack	Port	Health Endpoint
 🧑 User Service	Node.js + Express	3001	/health → User service is healthy
