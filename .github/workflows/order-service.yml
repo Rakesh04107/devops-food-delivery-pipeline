@@ -30,4 +30,4 @@ jobs:
         with:
           context: ./order-service
           push: true
-          tags: kuberakesh04107/payment-service:latest
+          tags: kuberakesh04107/order-service:latest
